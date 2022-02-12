@@ -145,6 +145,11 @@ h1 {
     margin-left: 20px;
 }
 
+/*fonte botoes*/
+#botao1, #botao2, #botao3, #botao4, #botao5, #botao6, #botao7, #botao8, #botao9, #botao10 {
+    margin: 0 180px;
+}
+
 /*rodapé*/
 
 footer {
