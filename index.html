@@ -8,55 +8,58 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1>Digite o nome/frase para ver com a fonte:</h1>
+    <div id="conteudo">
+        <h1>Digite o nome/frase para ver com a fonte:</h1>
+        <form id="form">
+            <label for="aqui">Digite aqui:</label>
+            <input type="text" name="aqui" id="aqui">
+            <input type="button" value="Carregar" onclick="fontes()">
+        </form>
+        <div id="fonte1">
+            Fonte 1:
+            <span id="fonte1span"></span>
+        </div>
+        <div id="fonte2">
+            Fonte 2:
+            <span id="fonte2span"></span>
+        </div>
+        <div id="fonte3">
+            Fonte 3:
+            <span id="fonte3span"></span>
+        </div>
+        <div id="fonte4">
+            Fonte 4:
+            <span id="fonte4span"></span>
+        </div>
+        <div id="fonte5">
+            Fonte 5:
+            <span id="fonte5span"></span>
+        </div>
+        <div id="fonte6">
+            Fonte 6:
+            <span id="fonte6span"></span>
+        </div>
+        <div id="fonte7">
+            Fonte 7:
+            <span id="fonte7span"></span>
+        </div>
+        <div id="fonte8">
+            Fonte 8:
+            <span id="fonte8span"></span>
+        </div>
+        <div id="fonte9">
+            Fonte 9:
+            <span id="fonte9span"></span>
+        </div>
+        <div id="fonte10">
+            Fonte 10:
+            <span id="fonte10span"></span>
+        </div>
+    </div>
 
-    <form id="form">
-        <label for="aqui">Digite aqui:</label>
-        <input type="text" name="aqui" id="aqui"> 
-
-        <input type="button" value="Carregar" onclick="fontes()">
-    </form>
-
-    <div id="fonte1">
-        Fonte 1: 
-        <span id="fonte1span"></span>
-    </div>
-    <div id="fonte2">
-        Fonte 2: 
-        <span id="fonte2span"></span>
-    </div>
-    <div id="fonte3">
-        Fonte 3: 
-        <span id="fonte3span"></span>
-    </div>
-    <div id="fonte4">
-        Fonte 4: 
-        <span id="fonte4span"></span>
-    </div>
-    <div id="fonte5">
-        Fonte 5: 
-        <span id="fonte5span"></span>
-    </div>
-    <div id="fonte6">
-        Fonte 6: 
-        <span id="fonte6span"></span>
-    </div>
-    <div id="fonte7">
-        Fonte 7: 
-        <span id="fonte7span"></span>
-    </div>
-    <div id="fonte8">
-        Fonte 8: 
-        <span id="fonte8span"></span>
-    </div>
-    <div id="fonte9">
-        Fonte 9: 
-        <span id="fonte9span"></span>
-    </div>
-    <div id="fonte10">
-        Fonte 10: 
-        <span id="fonte10span"></span>
-    </div>
+    <footer>
+        Pagina feita por Nerqs
+    </footer>
 
     <script>
         function fontes() {

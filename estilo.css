@@ -1,4 +1,4 @@
-body {
+#conteudo {
     margin: 0 auto;
     padding: 0;
     width: 500px;
@@ -143,4 +143,15 @@ h1 {
     font-family: fonte10;
     font-size: 100px;
     margin-left: 20px;
+}
+
+/*rodapé*/
+
+footer {
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    clear: both;
 }
